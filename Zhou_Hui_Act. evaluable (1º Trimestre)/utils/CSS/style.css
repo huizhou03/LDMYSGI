@@ -1,0 +1,18 @@
+p {
+    color : black; font-size: 8mm;
+}
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+}
+h1{
+    margin-bottom: 1em;
+   
+}
+img {
+    size: 20px;
+}
+header {
+    background-image: url(https://png.pngtree.com/background/20230417/original/pngtree-robot-futuristic-sci-fi-virtual-system-background-picture-image_2445920.jpg)
+}
