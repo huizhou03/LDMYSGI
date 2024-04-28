@@ -1,0 +1,72 @@
+/* Estilos para el cuerpo de la página */
+body {
+  background-image: url("https://img.freepik.com/premium-vector/vector-graphic-ecommerce-buttons-perfect-user-interface-new-application-etc_598925-96.jpg?w=1380");
+  background-size: contain;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+h1 {
+  color: rgb(51, 83, 222);
+}
+
+h2 {
+  color: rgb(63, 94, 219);
+}
+/* Estilos para el encabezado */
+header {
+  background-color: rgba(173, 216, 230, 0.8);
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para el contenido principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(173, 216, 230, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las cartas */
+.card {
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: rgba(173, 216, 230, 0.7);
+  border-radius: 10px;
+}
+
+.card .card-img-top {
+  height: 200px;
+}
+
+.card .card-body {
+  height: 150px;
+}
+
+.card .card-body h5 {
+  font-size: 18px;
+}
+
+.card .card-body p {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+#products {
+  flex: 0 0 66.666%;
+}
+
+#cart {
+  flex: 0 0 33.333%;
+}
